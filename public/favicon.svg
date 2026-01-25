@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5DADE2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#AF7AC5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC407A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3F51B5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5E35B1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5DADE2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9575CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC407A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EC407A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#AB47BC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5DADE2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- First M curve (left) -->
+  <path d="M 80 450 Q 80 150 120 120 Q 150 100 180 150 L 230 400 Q 240 450 230 480 Q 220 500 180 510 Q 140 520 110 500 Q 80 480 80 450 Z" fill="url(#gradient1)" />
+  
+  <!-- First M peak (left triangle) -->
+  <path d="M 180 150 L 280 150 L 230 480 Q 220 500 180 510 L 180 150 Z" fill="url(#gradient2)" />
+  
+  <!-- Second M curve (middle) -->
+  <path d="M 240 450 Q 240 200 280 170 Q 310 150 340 200 L 380 420 Q 390 460 380 485 Q 370 505 340 512 Q 310 520 280 505 Q 250 490 240 450 Z" fill="url(#gradient3)" />
+  
+  <!-- Second M peak (right triangle) -->
+  <path d="M 340 200 L 420 200 L 380 485 Q 370 505 340 512 L 340 200 Z" fill="url(#gradient2)" />
+  
+  <!-- Third M curve (right) -->
+  <path d="M 420 480 Q 420 330 450 310 Q 475 295 500 340 L 525 440 Q 535 480 525 500 Q 515 515 490 520 Q 465 525 445 510 Q 425 495 420 480 Z" fill="url(#gradient4)" />
+</svg>

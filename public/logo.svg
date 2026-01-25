@@ -1,0 +1,71 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background with metallic border -->
+  <defs>
+    <linearGradient id="metallicRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF3A46;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E02E3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF3A46;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="metallicSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C0C0C0;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#E8E8E8;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#A0A0A0;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="metallicDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E2E2E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1A1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3A3A3A;stop-opacity:1" />
+    </linearGradient>
+    <filter id="brushed">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2"/>
+    </filter>
+  </defs>
+  
+  <!-- Shield shape with border -->
+  <path d="M60 15L90 25V60C90 84.8528 76.8528 105 55 105C33.1472 105 20 84.8528 20 60V25L30 15L60 15Z" 
+        fill="url(#metallicDark)" 
+        stroke="#4A4A4A" 
+        stroke-width="2"
+        filter="url(#brushed)"/>
+  
+  <!-- Shield upper portion (Red) -->
+  <path d="M60 15L30 25L30 45L60 45V15Z" fill="url(#metallicRed)" filter="url(#brushed)"/>
+  
+  <!-- Shield lower left (Red) -->
+  <path d="M30 45L30 60C30 76.5685 41.4315 88 55 88V45L30 45Z" fill="url(#metallicRed)" filter="url(#brushed)"/>
+  
+  <!-- Shield lower right (Silver) -->
+  <path d="M60 45L90 25L90 60C90 76.5685 78.5685 88 65 88V45L60 45Z" fill="url(#metallicSilver)" filter="url(#brushed)"/>
+  
+  <!-- Stylized Letter A - Left stroke (Red) -->
+  <path d="M45 75L50 60L55 45L60 60L65 75L55 75L52 65L55 75Z" fill="url(#metallicRed)" filter="url(#brushed)"/>
+  
+  <!-- Stylized Letter A - Right stroke (Dark/Silver) -->
+  <path d="M55 45L65 75L55 75L55 45Z" fill="url(#metallicDark)" opacity="0.7" filter="url(#brushed)"/>
+  
+  <!-- Diagonal red band with sharp point (extending left) -->
+  <path d="M52 58L68 58L60 50L52 58Z" fill="url(#metallicRed)" filter="url(#brushed)"/>
+  <path d="M50 58L60 50L60 58L50 58Z" fill="url(#metallicRed)" filter="url(#brushed)"/>
+  <path d="M48 60L50 58L50 60L48 60Z" fill="url(#metallicRed)" filter="url(#brushed)"/>
+  
+  <!-- Signal/Wifi Icon (Top Right) - Three curved lines -->
+  <path d="M84 24C87.3137 24 90 26.6863 90 30" 
+        stroke="#4A4A4A" 
+        stroke-width="2.5" 
+        stroke-linecap="round" 
+        fill="none"
+        filter="url(#brushed)"/>
+  <path d="M87 27C88.1046 27 89 27.8954 89 29" 
+        stroke="#4A4A4A" 
+        stroke-width="2" 
+        stroke-linecap="round" 
+        fill="none"
+        filter="url(#brushed)"/>
+  <path d="M85 25C85.5523 25 86 25.4477 86 26" 
+        stroke="#4A4A4A" 
+        stroke-width="1.5" 
+        stroke-linecap="round" 
+        fill="none"
+        filter="url(#brushed)"/>
+</svg>
