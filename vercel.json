@@ -3,5 +3,19 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "vite",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "header",
+          "key": "host",
+          "value": "www.advancesos.in"
+        }
+      ],
+      "destination": "https://advancesos.in/:path*",
+      "permanent": true
+    }
+  ]
 }

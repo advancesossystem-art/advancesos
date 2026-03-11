@@ -22,12 +22,6 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-3">Contact</h3>
             <p className="text-sos-lightgray text-sm mb-2">advancesossystem@gmail.com</p>
             <p className="text-sos-lightgray text-sm">+91 95868 68538</p>
-            
-            <div className="mt-6">
-              <button className="bg-sos-red text-white px-4 py-2 rounded-md hover:bg-sos-red/80 transition-colors">
-                Request Demo
-              </button>
-            </div>
           </div>
         </div>
       </div>
