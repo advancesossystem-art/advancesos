@@ -37,20 +37,10 @@ const HeroSection = () => {
             <Button className="bg-sos-red hover:bg-sos-red/90 text-white px-8 py-6 text-lg rounded-md">
               <a href="#features">Explore Features</a>
             </Button>
-            <Button variant="outline" className="border-sos-blue text-sos-blue hover:bg-sos-blue/10 px-8 py-6 text-lg rounded-md">
-              Learn More
-            </Button>
           </div>
         </div>
       </div>
       
-      {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
-        <span className="text-sos-lightgray text-sm animate-bounce">Scroll Down</span>
-        <svg className="w-6 h-6 mt-1 text-sos-lightgray" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-        </svg>
-      </div>
     </section>
   );
 };

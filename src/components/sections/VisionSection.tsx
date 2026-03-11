@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Button } from '@/components/ui/button';
 
 const VisionSection = () => {
   return (
@@ -76,11 +75,6 @@ const VisionSection = () => {
             </div>
           </div>
           
-          <div className="mt-16">
-            <Button className="bg-gradient-to-r from-sos-red to-sos-blue hover:opacity-90 text-white px-8 py-6 text-lg rounded-md">
-              Join Our Mission
-            </Button>
-          </div>
         </div>
       </div>
       
